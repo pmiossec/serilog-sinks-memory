@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.Sinks.Memory", "src\Serilog.Sinks.Memory\Serilog.Sinks.Memory.csproj", "{E8EF6DC2-B9E9-4053-8264-3B97718795D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Sinks.Memory.Tests", "test\Serilog.Sink.Memory.Tests\Serilog.Sinks.Memory.Tests.csproj", "{562B3BD4-2740-474C-AE9A-2238F8BB6518}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8EF6DC2-B9E9-4053-8264-3B97718795D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8EF6DC2-B9E9-4053-8264-3B97718795D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8EF6DC2-B9E9-4053-8264-3B97718795D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8EF6DC2-B9E9-4053-8264-3B97718795D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{562B3BD4-2740-474C-AE9A-2238F8BB6518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{562B3BD4-2740-474C-AE9A-2238F8BB6518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{562B3BD4-2740-474C-AE9A-2238F8BB6518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{562B3BD4-2740-474C-AE9A-2238F8BB6518}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28E16386-9267-4C97-9628-8CCBB7E612FA}
+	EndGlobalSection
+EndGlobal
